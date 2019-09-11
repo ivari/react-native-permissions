@@ -11,7 +11,6 @@
 @implementation RCTConvert (RNPStatus)
 
 RCT_ENUM_CONVERTER(RNPType, (@{ @"location" : @(RNPTypeLocation),
-                                @"reminder" : @(RNPTypeReminder),
                                 @"notification" : @(RNPTypeNotification),
                                 @"backgroundRefresh": @(RNPTypeBackgroundRefresh),
                                 @"motion": @(RNPTypeMotion)

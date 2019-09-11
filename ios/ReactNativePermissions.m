@@ -102,9 +102,6 @@ RCT_REMAP_METHOD(getPermissionStatus, getPermissionStatus:(RNPType)type json:(id
             status = [RNPLocation getStatusForType:locationPermissionType];
             break;
         }
-        case RNPTypeReminder:
-            status = [RNPEvent getStatus:@"reminder"];
-            break;
         case RNPTypeNotification:
             status = [RNPNotification getStatus];
             break;
@@ -128,8 +125,6 @@ RCT_REMAP_METHOD(requestPermission, permissionType:(RNPType)type json:(id)json r
     switch (type) {
         case RNPTypeLocation:
             return [self requestLocation:json resolve:resolve];
-        case RNPTypeReminder:
-            return [RNPEvent request:@"reminder" completionHandler:resolve];
         case RNPTypeNotification:
             return [self requestNotification:json resolve:resolve];
         case RNPTypeMotion:
