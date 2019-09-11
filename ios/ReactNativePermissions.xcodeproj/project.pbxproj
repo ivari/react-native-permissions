@@ -12,7 +12,6 @@
 		6695820E1FE441A8008596CD /* RNPLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 669581FE1FE441A7008596CD /* RNPLocation.m */; };
 		669582101FE441A8008596CD /* RNPBackgroundRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 669582001FE441A7008596CD /* RNPBackgroundRefresh.m */; };
 		669582111FE441A8008596CD /* RNPNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 669582011FE441A7008596CD /* RNPNotification.m */; };
-		D0AD62322000657000D89898 /* RNPMotion.m in Sources */ = {isa = PBXBuildFile; fileRef = D0AD62312000657000D89898 /* RNPMotion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,8 +38,6 @@
 		669582051FE441A7008596CD /* RNPBackgroundRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNPBackgroundRefresh.h; sourceTree = "<group>"; };
 		6695820C1FE441A8008596CD /* RNPNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNPNotification.h; sourceTree = "<group>"; };
 		9D23B34F1C767B80008B4819 /* libReactNativePermissions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReactNativePermissions.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0AD62302000656F00D89898 /* RNPMotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNPMotion.h; sourceTree = "<group>"; };
-		D0AD62312000657000D89898 /* RNPMotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNPMotion.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +63,6 @@
 			children = (
 				669582051FE441A7008596CD /* RNPBackgroundRefresh.h */,
 				669582001FE441A7008596CD /* RNPBackgroundRefresh.m */,
-				D0AD62302000656F00D89898 /* RNPMotion.h */,
-				D0AD62312000657000D89898 /* RNPMotion.m */,
 				669582021FE441A7008596CD /* RNPLocation.h */,
 				669581FE1FE441A7008596CD /* RNPLocation.m */,
 				6695820C1FE441A8008596CD /* RNPNotification.h */,
@@ -158,7 +153,6 @@
 				669582101FE441A8008596CD /* RNPBackgroundRefresh.m in Sources */,
 				669581F71FE4416B008596CD /* RCTConvert+RNPStatus.m in Sources */,
 				6695820E1FE441A8008596CD /* RNPLocation.m in Sources */,
-				D0AD62322000657000D89898 /* RNPMotion.m in Sources */,
 				669581F81FE4416B008596CD /* ReactNativePermissions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -12,8 +12,7 @@
 
 RCT_ENUM_CONVERTER(RNPType, (@{ @"location" : @(RNPTypeLocation),
                                 @"notification" : @(RNPTypeNotification),
-                                @"backgroundRefresh": @(RNPTypeBackgroundRefresh),
-                                @"motion": @(RNPTypeMotion)
+                                @"backgroundRefresh": @(RNPTypeBackgroundRefresh)
                                 }),
                                 RNPTypeUnknown, integerValue)
 
