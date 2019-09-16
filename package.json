@@ -1,11 +1,11 @@
 {
   "name": "react-native-permissions",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Check user permissions in React Native",
   "author": "Yonah Forst <yonaforst@hotmail.com>",
   "license": "MIT",
   "main": "index.js",
-  "homepage": "https://github.com/ivari/react-native-permissions#readme",
+  "homepage": "https://github.com/react-native-community/react-native-permissions#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/ivari/react-native-permissions.git"
